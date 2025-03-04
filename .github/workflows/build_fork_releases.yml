@@ -1,7 +1,7 @@
 name: "Build Fork Releases"
 
 on:
-  workflow_call:
+  workflow_dispatch:
 
 env:
   RUST_BACKTRACE: full
